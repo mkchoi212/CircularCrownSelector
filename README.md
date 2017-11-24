@@ -1,5 +1,11 @@
+<p align="center">
+    <img src="./Demo.gif">
+  <h3 align="center">Circular Crown Selector</h3>
+  <h3 align="center">for watchOS</h3>
+</p>
+<br>
 CircularCrownSelector is a selection menu that is controlled via Digital Crown.
-The user interface is a replica of Apple's old Contact app designed for watchOS 2.
+The user interface is a replica of Apple's old Contact app designed for previous versions of watchOS.
 
 ## 👷 Installation
 
