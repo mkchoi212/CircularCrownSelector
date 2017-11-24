@@ -18,7 +18,7 @@
 		CA64485E1FC87F2B00E1610E /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA64485C1FC87F2B00E1610E /* Interface.storyboard */; };
 		CA6448601FC87F2B00E1610E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA64485F1FC87F2B00E1610E /* Assets.xcassets */; };
 		CA6448671FC87F2B00E1610E /* Circular Crown Selector WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CA6448661FC87F2B00E1610E /* Circular Crown Selector WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		CA64486C1FC87F2B00E1610E /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA64486B1FC87F2B00E1610E /* InterfaceController.swift */; };
+		CA64486C1FC87F2B00E1610E /* CrownSelectorInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA64486B1FC87F2B00E1610E /* CrownSelectorInterfaceController.swift */; };
 		CA64486E1FC87F2B00E1610E /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA64486D1FC87F2B00E1610E /* ExtensionDelegate.swift */; };
 		CA6448701FC87F2B00E1610E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA64486F1FC87F2B00E1610E /* Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -98,7 +98,7 @@
 		CA64485F1FC87F2B00E1610E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA6448611FC87F2B00E1610E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA6448661FC87F2B00E1610E /* Circular Crown Selector WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Circular Crown Selector WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA64486B1FC87F2B00E1610E /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		CA64486B1FC87F2B00E1610E /* CrownSelectorInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrownSelectorInterfaceController.swift; sourceTree = "<group>"; };
 		CA64486D1FC87F2B00E1610E /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		CA64486F1FC87F2B00E1610E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA6448711FC87F2B00E1610E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -204,7 +204,7 @@
 		CA64486A1FC87F2B00E1610E /* Circular Crown Selector WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				CA64486B1FC87F2B00E1610E /* InterfaceController.swift */,
+				CA64486B1FC87F2B00E1610E /* CrownSelectorInterfaceController.swift */,
 				CA64486D1FC87F2B00E1610E /* ExtensionDelegate.swift */,
 				CA64486F1FC87F2B00E1610E /* Assets.xcassets */,
 				CA6448711FC87F2B00E1610E /* Info.plist */,
@@ -435,7 +435,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA64486E1FC87F2B00E1610E /* ExtensionDelegate.swift in Sources */,
-				CA64486C1FC87F2B00E1610E /* InterfaceController.swift in Sources */,
+				CA64486C1FC87F2B00E1610E /* CrownSelectorInterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
