@@ -8,6 +8,19 @@ CircularCrownSelector is a selection menu that is controlled via Digital Crown.
 The user interface is a replica of Apple's old Contact app designed for previous versions of watchOS.
 
 ## 👷 Installation
+#### Step 1. Install [CocoaPods](https://cocoapods.org)
+
+Edit your `Podfile` and specify the dependency:
+
+```ruby
+pod "CircularCrownSelector"
+```
+
+#### Step 2. Drag Interface from Storyboard
+Go to `Source/Base.lproj/` and open `Interface.storyboard`.
+`⌘-C` and `⌘-V` the only screen you see in the storyboard to your own `Interface.storyboard`. 
+
+And voilà 🎉
 
 ## ✋ Contributing
 This is an open source project so feel free to contribute by
