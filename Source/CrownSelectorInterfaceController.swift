@@ -1,5 +1,5 @@
 //
-//  CirculeInterfaceController.swift
+//  CrownSelectorInterfaceController.swift
 //  Circular Crown Selector WatchKit Extension
 //
 //  Created by Mike Choi on 11/24/17.
@@ -7,8 +7,6 @@
 //
 
 import WatchKit
-import Foundation
-
 
 class CrownSelectorInterfaceController: WKInterfaceController, WKCrownDelegate {
   @IBOutlet var c1: WKInterfaceGroup!
@@ -40,7 +38,13 @@ class CrownSelectorInterfaceController: WKInterfaceController, WKCrownDelegate {
   override func awake(withContext context: Any?) {
     super.awake(withContext: context)
     
-    initials = generateInitials()
+    if let initials = context as? [String] {
+      self.initials = initials
+    } else {
+      self.initials = generateInitials()
+    }
+    initials = fillBlankSpots(of: initials, with: "●")
+    
     circles = [c1, c2, c3, c4, c5, c6, c7, c8, c9, c10, c11, c12]
 
     _ = zip(circles, initials).map { (tup) -> Void in
@@ -61,7 +65,14 @@ class CrownSelectorInterfaceController: WKInterfaceController, WKCrownDelegate {
     idx = 0
     setActive(0)
   }
+
+  func fillBlankSpots(of arr: [String], with str: String) -> [String] {
+    let diff = 12 - arr.count
+    let filledArray = arr + Array(repeating: str, count: diff)
+    return filledArray
+  }
   
+  // Set group at idx active by changing color attributes
   func setActive(_ idx: Int) {
     circles[idx].setBackgroundColor(activeColor)
     circles[idx].setBackgroundImage(stringToImage(initials[idx], color: activeFontColor))
@@ -76,6 +87,7 @@ class CrownSelectorInterfaceController: WKInterfaceController, WKCrownDelegate {
   // MARK: WKCrownDelegate
   func crownDidRotate(_ crownSequencer: WKCrownSequencer?, rotationalDelta: Double) {
     // Only act on crown rotation if `deltaBuildUp` is greater than sensitivity
+    // for smoother / controllable scrolling experience
     deltaBuildUp = deltaBuildUp.sign != rotationalDelta.sign ? 0 : deltaBuildUp
     deltaBuildUp = deltaBuildUp + rotationalDelta
     
@@ -94,8 +106,9 @@ class CrownSelectorInterfaceController: WKInterfaceController, WKCrownDelegate {
     setActive(idx)
     deltaBuildUp = 0.0
   }
- 
-  func stringToImage(_ str: String, color: UIColor) -> UIImage? {
+
+  // MARK: Helper Functions
+  private func stringToImage(_ str: String, color: UIColor) -> UIImage? {
     let imageSize = CGSize(width: 23, height: 23)
     UIGraphicsBeginImageContextWithOptions(imageSize, false, 0)
     UIColor.clear.set()
@@ -114,11 +127,11 @@ class CrownSelectorInterfaceController: WKInterfaceController, WKCrownDelegate {
     return image
   }
  
-  func generateInitials() -> [String] {
+  private func generateInitials() -> [String] {
     let randomString = UUID().uuidString
     let str = randomString.replacingOccurrences(of: "-", with: "")
 
-    let initials = stride(from: 0, to: 24, by: 2).map { i -> String in
+    let initials = stride(from: 0, to: 18, by: 2).map { i -> String in
         let start = str.index(str.startIndex, offsetBy: i)
         let end = str.index(str.startIndex, offsetBy: i + 2)
         return String(str[start..<end])
@@ -130,7 +143,7 @@ class CrownSelectorInterfaceController: WKInterfaceController, WKCrownDelegate {
   private func randomColor() -> UIColor {
     let hue = ( CGFloat(arc4random() % 256) / 256.0 )               //  0.0 to 1.0
     let saturation = ( CGFloat(arc4random() % 128) / 256.0 ) + 0.5  //  0.5 to 1.0, away from white
-    let brightness = ( CGFloat(arc4random() % 128) / 256.0 ) + 0.7  //  0.5 to 1.0, away from black
+    let brightness = ( CGFloat(arc4random() % 128) / 256.0 ) + 0.7  //  0.7 to 1.0, away from black
     return UIColor(hue: hue, saturation: saturation, brightness: brightness, alpha: 1)
   }
 }

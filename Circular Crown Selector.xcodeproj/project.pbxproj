@@ -12,11 +12,8 @@
 		CA6448381FC87F2B00E1610E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA6448361FC87F2B00E1610E /* Main.storyboard */; };
 		CA64483A1FC87F2B00E1610E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA6448391FC87F2B00E1610E /* Assets.xcassets */; };
 		CA64483D1FC87F2B00E1610E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA64483B1FC87F2B00E1610E /* LaunchScreen.storyboard */; };
-		CA6448481FC87F2B00E1610E /* Circular_Crown_SelectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6448471FC87F2B00E1610E /* Circular_Crown_SelectorTests.swift */; };
-		CA6448531FC87F2B00E1610E /* Circular_Crown_SelectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6448521FC87F2B00E1610E /* Circular_Crown_SelectorUITests.swift */; };
 		CA6448581FC87F2B00E1610E /* Circular Crown Selector WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CA6448571FC87F2B00E1610E /* Circular Crown Selector WatchKit App.app */; };
 		CA64485E1FC87F2B00E1610E /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA64485C1FC87F2B00E1610E /* Interface.storyboard */; };
-		CA6448601FC87F2B00E1610E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA64485F1FC87F2B00E1610E /* Assets.xcassets */; };
 		CA6448671FC87F2B00E1610E /* Circular Crown Selector WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CA6448661FC87F2B00E1610E /* Circular Crown Selector WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		CA64486C1FC87F2B00E1610E /* CrownSelectorInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA64486B1FC87F2B00E1610E /* CrownSelectorInterfaceController.swift */; };
 		CA64486E1FC87F2B00E1610E /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA64486D1FC87F2B00E1610E /* ExtensionDelegate.swift */; };
@@ -24,20 +21,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CA6448441FC87F2B00E1610E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CA6448271FC87F2A00E1610E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CA64482E1FC87F2B00E1610E;
-			remoteInfo = "Circular Crown Selector";
-		};
-		CA64484F1FC87F2B00E1610E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CA6448271FC87F2A00E1610E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CA64482E1FC87F2B00E1610E;
-			remoteInfo = "Circular Crown Selector";
-		};
 		CA6448591FC87F2B00E1610E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CA6448271FC87F2A00E1610E /* Project object */;
@@ -87,15 +70,8 @@
 		CA6448391FC87F2B00E1610E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA64483C1FC87F2B00E1610E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA64483E1FC87F2B00E1610E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CA6448431FC87F2B00E1610E /* Circular Crown SelectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Circular Crown SelectorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA6448471FC87F2B00E1610E /* Circular_Crown_SelectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circular_Crown_SelectorTests.swift; sourceTree = "<group>"; };
-		CA6448491FC87F2B00E1610E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CA64484E1FC87F2B00E1610E /* Circular Crown SelectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Circular Crown SelectorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA6448521FC87F2B00E1610E /* Circular_Crown_SelectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circular_Crown_SelectorUITests.swift; sourceTree = "<group>"; };
-		CA6448541FC87F2B00E1610E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA6448571FC87F2B00E1610E /* Circular Crown Selector WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Circular Crown Selector WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA64485D1FC87F2B00E1610E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
-		CA64485F1FC87F2B00E1610E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA6448611FC87F2B00E1610E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA6448661FC87F2B00E1610E /* Circular Crown Selector WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Circular Crown Selector WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA64486B1FC87F2B00E1610E /* CrownSelectorInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrownSelectorInterfaceController.swift; sourceTree = "<group>"; };
@@ -112,20 +88,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CA6448401FC87F2B00E1610E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CA64484B1FC87F2B00E1610E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		CA6448631FC87F2B00E1610E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -136,14 +98,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CA39A67D1FC8B4B900B780FB /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				CA64485C1FC87F2B00E1610E /* Interface.storyboard */,
+				CA64486B1FC87F2B00E1610E /* CrownSelectorInterfaceController.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		CA6448261FC87F2A00E1610E = {
 			isa = PBXGroup;
 			children = (
-				CA6448311FC87F2B00E1610E /* Circular Crown Selector */,
-				CA6448461FC87F2B00E1610E /* Circular Crown SelectorTests */,
-				CA6448511FC87F2B00E1610E /* Circular Crown SelectorUITests */,
-				CA64485B1FC87F2B00E1610E /* Circular Crown Selector WatchKit App */,
-				CA64486A1FC87F2B00E1610E /* Circular Crown Selector WatchKit Extension */,
+				CA6448311FC87F2B00E1610E /* Example-iOS */,
+				CA39A67D1FC8B4B900B780FB /* Source */,
+				CA64485B1FC87F2B00E1610E /* Example-watchOS */,
+				CA64486A1FC87F2B00E1610E /* Example-watchOS Extension */,
 				CA6448301FC87F2B00E1610E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -152,15 +122,13 @@
 			isa = PBXGroup;
 			children = (
 				CA64482F1FC87F2B00E1610E /* Circular Crown Selector.app */,
-				CA6448431FC87F2B00E1610E /* Circular Crown SelectorTests.xctest */,
-				CA64484E1FC87F2B00E1610E /* Circular Crown SelectorUITests.xctest */,
 				CA6448571FC87F2B00E1610E /* Circular Crown Selector WatchKit App.app */,
 				CA6448661FC87F2B00E1610E /* Circular Crown Selector WatchKit Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CA6448311FC87F2B00E1610E /* Circular Crown Selector */ = {
+		CA6448311FC87F2B00E1610E /* Example-iOS */ = {
 			isa = PBXGroup;
 			children = (
 				CA6448321FC87F2B00E1610E /* AppDelegate.swift */,
@@ -170,46 +138,25 @@
 				CA64483B1FC87F2B00E1610E /* LaunchScreen.storyboard */,
 				CA64483E1FC87F2B00E1610E /* Info.plist */,
 			);
-			path = "Circular Crown Selector";
+			path = "Example-iOS";
 			sourceTree = "<group>";
 		};
-		CA6448461FC87F2B00E1610E /* Circular Crown SelectorTests */ = {
+		CA64485B1FC87F2B00E1610E /* Example-watchOS */ = {
 			isa = PBXGroup;
 			children = (
-				CA6448471FC87F2B00E1610E /* Circular_Crown_SelectorTests.swift */,
-				CA6448491FC87F2B00E1610E /* Info.plist */,
-			);
-			path = "Circular Crown SelectorTests";
-			sourceTree = "<group>";
-		};
-		CA6448511FC87F2B00E1610E /* Circular Crown SelectorUITests */ = {
-			isa = PBXGroup;
-			children = (
-				CA6448521FC87F2B00E1610E /* Circular_Crown_SelectorUITests.swift */,
-				CA6448541FC87F2B00E1610E /* Info.plist */,
-			);
-			path = "Circular Crown SelectorUITests";
-			sourceTree = "<group>";
-		};
-		CA64485B1FC87F2B00E1610E /* Circular Crown Selector WatchKit App */ = {
-			isa = PBXGroup;
-			children = (
-				CA64485C1FC87F2B00E1610E /* Interface.storyboard */,
-				CA64485F1FC87F2B00E1610E /* Assets.xcassets */,
 				CA6448611FC87F2B00E1610E /* Info.plist */,
 			);
-			path = "Circular Crown Selector WatchKit App";
+			path = "Example-watchOS";
 			sourceTree = "<group>";
 		};
-		CA64486A1FC87F2B00E1610E /* Circular Crown Selector WatchKit Extension */ = {
+		CA64486A1FC87F2B00E1610E /* Example-watchOS Extension */ = {
 			isa = PBXGroup;
 			children = (
-				CA64486B1FC87F2B00E1610E /* CrownSelectorInterfaceController.swift */,
 				CA64486D1FC87F2B00E1610E /* ExtensionDelegate.swift */,
 				CA64486F1FC87F2B00E1610E /* Assets.xcassets */,
 				CA6448711FC87F2B00E1610E /* Info.plist */,
 			);
-			path = "Circular Crown Selector WatchKit Extension";
+			path = "Example-watchOS Extension";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,42 +180,6 @@
 			productName = "Circular Crown Selector";
 			productReference = CA64482F1FC87F2B00E1610E /* Circular Crown Selector.app */;
 			productType = "com.apple.product-type.application";
-		};
-		CA6448421FC87F2B00E1610E /* Circular Crown SelectorTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CA64487F1FC87F2B00E1610E /* Build configuration list for PBXNativeTarget "Circular Crown SelectorTests" */;
-			buildPhases = (
-				CA64483F1FC87F2B00E1610E /* Sources */,
-				CA6448401FC87F2B00E1610E /* Frameworks */,
-				CA6448411FC87F2B00E1610E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CA6448451FC87F2B00E1610E /* PBXTargetDependency */,
-			);
-			name = "Circular Crown SelectorTests";
-			productName = "Circular Crown SelectorTests";
-			productReference = CA6448431FC87F2B00E1610E /* Circular Crown SelectorTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		CA64484D1FC87F2B00E1610E /* Circular Crown SelectorUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CA6448821FC87F2B00E1610E /* Build configuration list for PBXNativeTarget "Circular Crown SelectorUITests" */;
-			buildPhases = (
-				CA64484A1FC87F2B00E1610E /* Sources */,
-				CA64484B1FC87F2B00E1610E /* Frameworks */,
-				CA64484C1FC87F2B00E1610E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CA6448501FC87F2B00E1610E /* PBXTargetDependency */,
-			);
-			name = "Circular Crown SelectorUITests";
-			productName = "Circular Crown SelectorUITests";
-			productReference = CA64484E1FC87F2B00E1610E /* Circular Crown SelectorUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 		CA6448561FC87F2B00E1610E /* Circular Crown Selector WatchKit App */ = {
 			isa = PBXNativeTarget;
@@ -318,16 +229,6 @@
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
 					};
-					CA6448421FC87F2B00E1610E = {
-						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = CA64482E1FC87F2B00E1610E;
-					};
-					CA64484D1FC87F2B00E1610E = {
-						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = CA64482E1FC87F2B00E1610E;
-					};
 					CA6448561FC87F2B00E1610E = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
@@ -352,8 +253,6 @@
 			projectRoot = "";
 			targets = (
 				CA64482E1FC87F2B00E1610E /* Circular Crown Selector */,
-				CA6448421FC87F2B00E1610E /* Circular Crown SelectorTests */,
-				CA64484D1FC87F2B00E1610E /* Circular Crown SelectorUITests */,
 				CA6448561FC87F2B00E1610E /* Circular Crown Selector WatchKit App */,
 				CA6448651FC87F2B00E1610E /* Circular Crown Selector WatchKit Extension */,
 			);
@@ -371,25 +270,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CA6448411FC87F2B00E1610E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CA64484C1FC87F2B00E1610E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		CA6448551FC87F2B00E1610E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA6448601FC87F2B00E1610E /* Assets.xcassets in Resources */,
 				CA64485E1FC87F2B00E1610E /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,22 +298,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CA64483F1FC87F2B00E1610E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CA6448481FC87F2B00E1610E /* Circular_Crown_SelectorTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CA64484A1FC87F2B00E1610E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CA6448531FC87F2B00E1610E /* Circular_Crown_SelectorUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		CA6448621FC87F2B00E1610E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -442,16 +310,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CA6448451FC87F2B00E1610E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CA64482E1FC87F2B00E1610E /* Circular Crown Selector */;
-			targetProxy = CA6448441FC87F2B00E1610E /* PBXContainerItemProxy */;
-		};
-		CA6448501FC87F2B00E1610E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CA64482E1FC87F2B00E1610E /* Circular Crown Selector */;
-			targetProxy = CA64484F1FC87F2B00E1610E /* PBXContainerItemProxy */;
-		};
 		CA64485A1FC87F2B00E1610E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = CA6448561FC87F2B00E1610E /* Circular Crown Selector WatchKit App */;
@@ -605,7 +463,7 @@
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7J57M62A98;
-				INFOPLIST_FILE = "Circular Crown Selector WatchKit Extension/Info.plist";
+				INFOPLIST_FILE = "Example-watchOS Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mikechoi.Circular-Crown-Selector.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
@@ -623,7 +481,7 @@
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7J57M62A98;
-				INFOPLIST_FILE = "Circular Crown Selector WatchKit Extension/Info.plist";
+				INFOPLIST_FILE = "Example-watchOS Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mikechoi.Circular-Crown-Selector.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
@@ -639,11 +497,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7J57M62A98;
 				IBSC_MODULE = Circular_Crown_Selector_WatchKit_Extension;
-				INFOPLIST_FILE = "Circular Crown Selector WatchKit App/Info.plist";
+				INFOPLIST_FILE = "Example-watchOS/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mikechoi.Circular-Crown-Selector.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
@@ -658,11 +515,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7J57M62A98;
 				IBSC_MODULE = Circular_Crown_Selector_WatchKit_Extension;
-				INFOPLIST_FILE = "Circular Crown Selector WatchKit App/Info.plist";
+				INFOPLIST_FILE = "Example-watchOS/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mikechoi.Circular-Crown-Selector.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
@@ -679,7 +535,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7J57M62A98;
-				INFOPLIST_FILE = "Circular Crown Selector/Info.plist";
+				INFOPLIST_FILE = "Example-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mikechoi.Circular-Crown-Selector";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -694,78 +550,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7J57M62A98;
-				INFOPLIST_FILE = "Circular Crown Selector/Info.plist";
+				INFOPLIST_FILE = "Example-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mikechoi.Circular-Crown-Selector";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		CA6448801FC87F2B00E1610E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7J57M62A98;
-				INFOPLIST_FILE = "Circular Crown SelectorTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mikechoi.Circular-Crown-SelectorTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Circular Crown Selector.app/Circular Crown Selector";
-			};
-			name = Debug;
-		};
-		CA6448811FC87F2B00E1610E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7J57M62A98;
-				INFOPLIST_FILE = "Circular Crown SelectorTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mikechoi.Circular-Crown-SelectorTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Circular Crown Selector.app/Circular Crown Selector";
-			};
-			name = Release;
-		};
-		CA6448831FC87F2B00E1610E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7J57M62A98;
-				INFOPLIST_FILE = "Circular Crown SelectorUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mikechoi.Circular-Crown-SelectorUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Circular Crown Selector";
-			};
-			name = Debug;
-		};
-		CA6448841FC87F2B00E1610E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7J57M62A98;
-				INFOPLIST_FILE = "Circular Crown SelectorUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mikechoi.Circular-Crown-SelectorUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Circular Crown Selector";
 			};
 			name = Release;
 		};
@@ -804,24 +594,6 @@
 			buildConfigurations = (
 				CA64487D1FC87F2B00E1610E /* Debug */,
 				CA64487E1FC87F2B00E1610E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CA64487F1FC87F2B00E1610E /* Build configuration list for PBXNativeTarget "Circular Crown SelectorTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CA6448801FC87F2B00E1610E /* Debug */,
-				CA6448811FC87F2B00E1610E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CA6448821FC87F2B00E1610E /* Build configuration list for PBXNativeTarget "Circular Crown SelectorUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CA6448831FC87F2B00E1610E /* Debug */,
-				CA6448841FC87F2B00E1610E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

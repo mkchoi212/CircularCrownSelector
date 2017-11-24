@@ -16,7 +16,9 @@
                     <items>
                         <group width="1" height="1" alignment="left" layout="overlap" id="OT8-51-qBB">
                             <items>
-                                <label alignment="center" verticalAlignment="center" text="Label" id="2aZ-uO-dfR"/>
+                                <label alignment="center" verticalAlignment="center" text="Label" id="2aZ-uO-dfR">
+                                    <fontDescription key="font" type="system" pointSize="30"/>
+                                </label>
                                 <group width="1" alignment="center" verticalAlignment="center" layout="vertical" spacing="2" id="g11-tZ-1Bu">
                                     <items>
                                         <group height="32" alignment="center" spacing="9" id="gEi-I0-sne">
