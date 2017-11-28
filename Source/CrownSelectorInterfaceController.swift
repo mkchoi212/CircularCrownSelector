@@ -30,10 +30,13 @@ class CrownSelectorInterfaceController: WKInterfaceController, WKCrownDelegate {
   let sensitivity = 0.8
   var initials : [String]!
   var fontColors : [UIColor] = []
-  
-  let activeFontColor = UIColor(red: 110.0/255.0, green: 64.0/255.0, blue: 0.0/255.0, alpha: 1.0)
-  let activeColor = UIColor(red: 255.0/255.0, green: 148.0/255.0, blue: 3.0/255.0, alpha: 1.0)
-  let inactiveColor = UIColor(red: 38.0/255.0, green: 38.0/255.0, blue: 40.0/255.0, alpha: 1.0)
+ 
+  /// #6E4000
+  let activeFontColor = #colorLiteral(red: 0.431372549, green: 0.2509803922, blue: 0, alpha: 1)
+  /// #FF9403
+  let activeColor = #colorLiteral(red: 1, green: 0.5803921569, blue: 0.01176470588, alpha: 1)
+  /// #262628
+  let inactiveColor = #colorLiteral(red: 0.1490196078, green: 0.1490196078, blue: 0.1568627451, alpha: 1)
   
   override func awake(withContext context: Any?) {
     super.awake(withContext: context)
