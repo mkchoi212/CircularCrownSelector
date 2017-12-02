@@ -31,5 +31,7 @@ This is an open source project so feel free to contribute by
 ## ⚠️ Notes
 This library is made to be used **only with watchOS**. Xcode dictates that a project must have an iOS project for a watchOS project to exist. So, please **ignore the folder `Example-iOS`** as it is an empty project.
 
+This library supports both 42mm and 38mm Apple Watches.
+
 ## 👮 License
 See [License](./LICENSE)
