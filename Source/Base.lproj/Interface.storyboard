@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="watchOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="13507"/>
     </dependencies>
@@ -14,14 +13,14 @@
             <objects>
                 <controller title="Demo" id="9iw-mW-cJo" customClass="CrownSelectorInterfaceController" customModule="Circular_Crown_Selector_WatchKit_Extension">
                     <items>
-                        <group width="1" height="1" alignment="left" layout="overlap" id="OT8-51-qBB">
+                        <group width="1" height="1" alignment="left" layout="overlap" spacing="4" id="OT8-51-qBB">
                             <items>
-                                <label alignment="center" verticalAlignment="center" text="Label" id="2aZ-uO-dfR">
+                                <label width="1" alignment="center" verticalAlignment="center" text="Label" textAlignment="center" minimumScaleFactor="0.10000000000000001" id="2aZ-uO-dfR">
                                     <fontDescription key="font" type="system" pointSize="30"/>
                                 </label>
-                                <group width="1" alignment="center" verticalAlignment="center" layout="vertical" spacing="2" id="g11-tZ-1Bu">
+                                <group width="1" alignment="center" verticalAlignment="center" layout="vertical" spacing="0.0" id="GnK-WQ-vtx">
                                     <items>
-                                        <group height="32" alignment="center" spacing="9" id="gEi-I0-sne">
+                                        <group height="46" alignment="center" spacing="5" id="gEi-I0-sne">
                                             <items>
                                                 <group width="23" height="23" alignment="center" verticalAlignment="bottom" radius="12" id="mu8-65-yK5">
                                                     <color key="backgroundColor" red="0.12549019610000001" green="0.58039215690000001" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -33,10 +32,37 @@
                                                     <color key="backgroundColor" red="0.12549019610000001" green="0.58039215690000001" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </group>
                                             </items>
+                                            <edgeInsets key="margins" left="0.0" right="0.0" top="8" bottom="0.0"/>
+                                            <variation key="device=watch38mm" height="50" spacing="5">
+                                                <edgeInsets key="margins" left="0.0" right="0.0" top="20" bottom="0.0"/>
+                                            </variation>
+                                            <variation key="device=watch42mm" height="42" spacing="9">
+                                                <edgeInsets key="margins" left="0.0" right="0.0" top="9" bottom="0.0"/>
+                                            </variation>
                                         </group>
-                                        <group width="1" alignment="center" verticalAlignment="center" spacing="4" id="T0Z-IS-jq3">
+                                        <group height="32" alignment="center" verticalAlignment="bottom" spacing="9" id="nsq-91-VvV">
                                             <items>
-                                                <group width="33" alignment="left" verticalAlignment="center" layout="vertical" spacing="8" id="QTZ-wd-Suz">
+                                                <group width="23" height="23" alignment="left" radius="12" id="YuB-xm-aBK">
+                                                    <color key="backgroundColor" red="0.12549019610000001" green="0.58039215690000001" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </group>
+                                                <group width="23" height="23" alignment="right" radius="12" id="wWT-f4-ndK">
+                                                    <color key="backgroundColor" red="0.12549019610000001" green="0.58039215690000001" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </group>
+                                                <group width="23" height="23" alignment="center" verticalAlignment="bottom" radius="12" id="Ihc-k3-Ffs">
+                                                    <color key="backgroundColor" red="0.12549019610000001" green="0.58039215690000001" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </group>
+                                            </items>
+                                            <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
+                                            <variation key="device=watch38mm" height="50" spacing="5">
+                                                <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="20"/>
+                                            </variation>
+                                            <variation key="device=watch42mm" height="43" spacing="9">
+                                                <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="11"/>
+                                            </variation>
+                                        </group>
+                                        <group width="1" height="0.69999999999999996" alignment="center" verticalAlignment="center" spacing="4" id="T0Z-IS-jq3">
+                                            <items>
+                                                <group width="30" alignment="left" verticalAlignment="center" layout="vertical" spacing="9" id="QTZ-wd-Suz">
                                                     <items>
                                                         <group width="23" height="23" alignment="right" radius="12" id="Xk1-Kk-gve">
                                                             <color key="backgroundColor" red="0.12549019610000001" green="0.58039215690000001" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -48,6 +74,8 @@
                                                             <color key="backgroundColor" red="0.12549019610000001" green="0.58039215690000001" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </group>
                                                     </items>
+                                                    <variation key="device=watch38mm" spacing="5"/>
+                                                    <variation key="device=watch42mm" spacing="9" width="33"/>
                                                 </group>
                                                 <group width="32" height="1" alignment="right" verticalAlignment="center" layout="vertical" spacing="7" id="qDc-Wj-dE2">
                                                     <items>
@@ -61,19 +89,8 @@
                                                             <color key="backgroundColor" red="0.12549019610000001" green="0.58039215690000001" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </group>
                                                     </items>
-                                                </group>
-                                            </items>
-                                        </group>
-                                        <group height="32" alignment="center" verticalAlignment="bottom" spacing="9" id="nsq-91-VvV">
-                                            <items>
-                                                <group width="23" height="23" alignment="left" radius="12" id="YuB-xm-aBK">
-                                                    <color key="backgroundColor" red="0.12549019610000001" green="0.58039215690000001" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                </group>
-                                                <group width="23" height="23" alignment="right" radius="12" id="wWT-f4-ndK">
-                                                    <color key="backgroundColor" red="0.12549019610000001" green="0.58039215690000001" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                </group>
-                                                <group width="23" height="23" alignment="center" verticalAlignment="bottom" radius="12" id="Ihc-k3-Ffs">
-                                                    <color key="backgroundColor" red="0.12549019610000001" green="0.58039215690000001" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <variation key="device=watch38mm" spacing="5" width="29"/>
+                                                    <variation key="device=watch42mm" spacing="7" width="32"/>
                                                 </group>
                                             </items>
                                         </group>
@@ -102,4 +119,5 @@
             <point key="canvasLocation" x="908" y="26"/>
         </scene>
     </scenes>
+    <color key="tintColor" red="1" green="0.58039215686274503" blue="0.011764705882352941" alpha="1" colorSpace="calibratedRGB"/>
 </document>
