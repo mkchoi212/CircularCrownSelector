@@ -27,7 +27,7 @@ class CrownSelectorInterfaceController: WKInterfaceController, WKCrownDelegate {
   var idx: Int!
 
   var deltaBuildUp: Double!
-  let sensitivity = 0.8
+  let sensitivity = 0.2
   var initials : [String]!
   var fontColors : [UIColor] = []
  
